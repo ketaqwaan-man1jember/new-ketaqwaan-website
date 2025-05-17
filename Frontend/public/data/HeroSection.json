@@ -1,0 +1,64 @@
+{
+  "heroSection": {
+    "HeroLogoSie1": "/image-index/ketaqwaan-logo.png",
+    "HeroDeskripsiLogoSie1": "Logo SIE 1 Ketaqwaan MAN 1 Jember",
+    "HeroWelcomeText": "Selamat Datang di",
+    "HeroPrimaryText": "SIE 1 KETAQWAAN",
+    "HeroSecondaryText": "MAN 1 JEMBER",
+    "HeroDescription": "Membentuk Generasi Berakhlak dan Bertaqwa Melalui Program Keagamaan yang Inovatif dan Inspiratif",
+    "HeroInforSie1": [
+      {
+        "HeroTotalProker": 20,
+        "HeroDeskripsiProker": "Program Kerja"
+      },
+      {
+        "HeroTotalEkskul": 3,
+        "HeroDeskripsiEkskul": "Ekstrakurikuler"
+      },
+      {
+        "HeroTotalAnggota": 100,
+        "HeroDeskripsiAnggota": "Anggota"
+      }
+    ],
+    "cta": [
+      {
+        "text": "Program Kerja",
+        "link": "#proker",
+        "icon": "fas fa-arrow-right",
+        "type": "primary"
+      },
+      {
+        "text": "Kegiatan PHBI",
+        "link": "#kegiatan",
+        "icon": "fas fa-calendar-alt",
+        "type": "secondary"
+      }
+    ],
+    "slides": [
+      {
+        "id": 1,
+        "image": "/image-index/member-ketaqwaan.jpg",
+        "title": "Anggota SIE 1 Ketaqwaan",
+        "description": "Tim yang berdedikasi untuk membentuk karakter islami siswa MAN 1 Jember."
+      },
+      {
+        "id": 2,
+        "image": "/image-kegiatan/dokumentasi-isra-miraj-2024.jpg",
+        "title": "Kegiatan Keagamaan",
+        "description": "Berbagai kegiatan untuk meningkatkan ketaqwaan dan spiritual siswa."
+      },
+      {
+        "id": 3,
+        "image": "/image-ekskul/ekskul-hadrah.jpg",
+        "title": "Ekstrakurikuler Islami",
+        "description": "Mengembangkan bakat dan minat siswa dalam bidang keagamaan."
+      },
+      {
+        "id": 4,
+        "image": "/image-kegiatan/dokumentasi-isra-miraj-2024.jpg",
+        "title": "Kegiatan Keagamaan",
+        "description": "Berbagai kegiatan untuk meningkatkan ketaqwaan dan spiritual siswa."
+      }
+    ]
+  }
+}
