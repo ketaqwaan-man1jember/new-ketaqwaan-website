@@ -1,0 +1,127 @@
+.kegiatan-section {
+    padding: 6rem 0 0 0;
+    background-color: #f9fafb; /* Very light gray background */
+}
+
+.kegiatan-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.kegiatan-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #136f63; /* Primary theme color */
+    margin-bottom: 1rem;
+}
+
+.kegiatan-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.loading-indicator,
+.error-message,
+.no-data-message {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.error-message {
+    color: #e57373; /* Light red for error */
+}
+
+.no-data-message {
+    font-style: italic;
+    color: #999;
+}
+
+.kegiatan-swiper {
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+.kegiatan-swiper .swiper-slide {
+    background: transparent;
+    opacity: 0.9; /* Sedikit transparansi untuk slide tidak aktif */
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s ease;
+    transform: scale(0.95); /* Sedikit skala kecil untuk slide tidak aktif */
+}
+
+/* Navigation arrows */
+.kegiatan-swiper .swiper-button-next,
+.kegiatan-swiper .swiper-button-prev {
+    color: #136f63;
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.kegiatan-swiper .swiper-button-next:after,
+.kegiatan-swiper .swiper-button-prev:after {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.kegiatan-swiper .swiper-button-next:hover,
+.kegiatan-swiper .swiper-button-prev:hover {
+    color: #22aaa1;
+    transform: scale(1.1);
+}
+
+/* Pagination bullets */
+.kegiatan-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    opacity: 0.8;
+    transition: background-color 0.3s ease;
+}
+
+.kegiatan-swiper .swiper-pagination-bullet-active {
+    background-color: #136f63;
+    opacity: 1;
+}
+
+/* Empty card styling */
+.kegiatan-swiper .empty-card {
+    background-color: var(--light-color);
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.kegiatan-swiper .empty-card i {
+    font-size: 3rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.kegiatan-swiper .empty-card p {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+}
+@media (max-width: 768px) {
+    .kegiatan-title {
+        font-size: 1.25rem;
+    }
+    .kegiatan-subtitle {
+        font-size: 0.8rem;
+    }
+}

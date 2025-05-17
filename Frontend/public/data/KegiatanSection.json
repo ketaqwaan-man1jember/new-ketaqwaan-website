@@ -1,0 +1,32 @@
+{
+  "kegiatan": {
+    "KegiatanJudul": "Peringatan Hari Besar Islam",
+    "KegiatanDeskripsi": "Kegiatan-kegiatan dalam memperingati Hari Besar Islam, sebagai wujud pengamalan nilai-nilai agama.",
+    "KegiatanSlide": [
+      {
+        "title": "MAULID NABI DAN HARI SANTRI NASIONAL 2023",
+        "description": "Maulid Nabi Muhammad SAW dapat menjadi momen meningkatkan kasih sayang, mengutamakan kebenaran, mempererat tali persaudaraan, serta menjunjung tinggi toleransi. Santri adalah cahaya bangsa yang terus menyinari jalan kebenaran dan kedamaian.",
+        "image": "/image-kegiatan/dokumentasi-maulid-nabi-dan-hari-santri-2023.jpg",
+        "date": "Sabtu, 21 Oktober 2023"
+      },
+      {
+        "title": "ISRA MI'RAJ 2024",
+        "description": "Isra Mi raj adalah perjalanan bersejarah dalam kehidupan Nabi Muhammad SAW. Semoga kisah Isra Miraj ini menginspirasi kita untuk meneladani akhlak beliau.\"",
+        "image": "/image-kegiatan/dokumentasi-isra-miraj-2024.jpg",
+        "date": "Kamis, 22 Februari 2024"
+      },
+      {
+        "title": "MUHARRAM 2024",
+        "description": "Tahun baru islam mengingatkan kita untuk hijrah, berpindah dari keburukan menuju kebaikan, dari kejahilan menuju ilmu, dan dari kezaliman menuju keadilan - Buya Hamka",
+        "image": "/image-kegiatan/dokumentasi-muharram-2024.jpg",
+        "date": "Jumat, 26 Juli 2024"
+      },
+      {
+        "title": "MAULID NABI 2024",
+        "description": "Pada Maulid Nabi ini mari kita renungkan bahwa kata terindah adalah Allah, lagu menakjubkan yakni lantunan azan, buku terbaik merupakan Al-Qur'an, dan beruntunglah kita sebagai umat Muslim.",
+        "image": "/image-kegiatan/dokumentasi-maulid-nabi-2024.jpg",
+        "date": "Rabu, 25 September 2024"
+      }
+    ]
+  }
+}
