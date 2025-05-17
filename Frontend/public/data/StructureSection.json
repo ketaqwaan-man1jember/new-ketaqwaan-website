@@ -1,0 +1,28 @@
+{
+  "struktur": {
+    "Judul": "Struktur Organisasi",
+    "JudulDeskripsi": "Berikut adalah struktur organisasi SIE 1 KETAQWAAN MAN 1 Jember periode 2024/2025",
+    "JudulPengurus": "Susunan Pengurus",
+    "TahunKepengurusan": "Periode 2024/2025",
+    "BaganStukturKorbid": "Koordinator Bidang",
+    "BaganStukturKetua": "Ketua",
+    "BaganStukturSekretaris": "Sekretaris",
+    "BaganStukturBendahara": "Bendahara",
+    "members": [
+      "Koordinator Bidang: Laqia",
+      "Ketua: Habibi",
+      "Wakil Ketua: Rama",
+      "Sekretaris 1: Ainun",
+      "Sekretaris 2: Rama",
+      "Bendahara 1: Nadia Regita",
+      "Bendahara 2: Rama",
+      "Koordinator sie Humas: Rama",
+      "Koordinator sie Ubudiyah: Arya",
+      "Koordinator sie Sarpas: Hisyam",
+      "Koordinator sie Media: Rama",
+      "Koordinator ekskul Hadrah: Rama",
+      "Koordinator ekskul Kaligrafi: Rama",
+      "Koordinator ekskul Tilawah: Rama"
+    ]
+  }
+}
