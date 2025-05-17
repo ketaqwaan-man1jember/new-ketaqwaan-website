@@ -1,0 +1,111 @@
+.program-section {
+    padding: 6rem 0 0 0;
+    background-color: #f9fafb; /* Light gray background */
+}
+
+.program-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.program-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #136f63; /* Primary theme color */
+    margin-bottom: 1rem;
+}
+
+.program-subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+.program-total-title {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #136f63;
+    margin-bottom: 0.75rem;
+    font-size: 0.75rem;
+}
+.program-total {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #136f63;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.loading-indicator,
+.error-message {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.error-message {
+    color: #e57373; /* Light red for error */
+}
+
+.swiper-program-kerja {
+    width: 100%;
+    max-width: 85rem; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.swiper-program-kerja .swiper-slide {
+    background: transparent;
+}
+
+/* Swiper Navigation Arrows */
+.swiper-program-kerja .swiper-button-next,
+.swiper-program-kerja .swiper-button-prev {
+    display: none; /* Hide navigation arrows */
+    color: #136f63; /* Primary theme color for arrows */
+    transition: all 0.3s ease;
+}
+
+.swiper-program-kerja .swiper-button-next:after,
+.swiper-program-kerja .swiper-button-prev:after {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.swiper-program-kerja .swiper-button-next:hover,
+.swiper-program-kerja .swiper-button-prev:hover {
+    transform: scale(1.1);
+    color: #22aaa1; /* Secondary theme color on hover */
+}
+
+/* Swiper Pagination */
+.swiper-program-kerja .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; /* Default pagination bullet color */
+    opacity: 0.8;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-program-kerja .swiper-pagination-bullet-active {
+    background-color: #136f63; /* Active bullet color */
+    opacity: 1;
+}
+.swiper-pagination-bullet {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .program-title {
+        font-size: 1.25rem;
+    }
+    .program-subtitle {
+        font-size: 0.8rem;
+    }
+}

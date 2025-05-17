@@ -1,0 +1,101 @@
+/* ProgramCard.css */
+.program-card {
+    background-color: var(--light-color);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px; /* DITAMBAHKAN: Untuk membuat ukuran card sama */
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.program-card-header {
+    background-color: #e8f0fe;
+    padding: 1.5rem;
+    min-height: 5rem; /* DITAMBAHKAN: Untuk membuat tinggi header sama */
+    border-bottom: 1px solid #e0e0e0;
+    display: flex; /* Enable flex layout for header content */
+    align-items: center; /* Vertically align icon and title */
+}
+
+.program-card-icon {
+    font-size: 1.25rem; /* Ukuran ikon header */
+    margin-right: 1rem; /* Spasi antara ik  on dan judul */
+    color: var(--primary-color); /* Warna ikon utama */
+}
+
+.program-card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #136f63;
+    margin-bottom: 0;
+}
+
+.program-card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Ubah ke flex-start agar konten dimulai dari atas */
+}
+
+.program-card-description {
+    font-size: 0.75rem;
+    color: #666;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 1rem; /* Tambahkan margin bottom agar ada jarak dengan info date/status */
+}
+
+.program-card-date {
+    border-top: 1px dashed #ccc;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    color: #777;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 0.5rem; /* Add margin to separate date and status */
+    margin-top: auto;
+}
+
+.program-card-status {
+    font-size: 0.8rem;
+    color: #777;
+    display: flex;
+    align-items: center;
+}
+
+.icon-date,
+.icon-status {
+    margin-right: 0.5rem;
+    color: var(--secondary-color); /* Warna ikon sekunder */
+}
+
+.status-selesai {
+    color: #4caf50; /* Warna hijau untuk status selesai */
+}
+
+.status-sedang-berlangsung {
+    color: #ffc107; /* Warna kuning/emas untuk status sedang berlangsung */
+}
+
+.status-direncanakan {
+    color: #2196f3; /* Warna biru untuk status direncanakan */
+}
+@media (max-width: 768px) {
+    .program-card-title {
+        font-size: 0.8rem;
+    }
+    .program-card-icon {
+        font-size: 1rem;
+    }
+}

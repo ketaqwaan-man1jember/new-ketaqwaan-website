@@ -1,0 +1,155 @@
+{
+  "InstruktureProgramKerja": {
+    "All Status": [
+      "Selesai = ketika program telah terjalan kan / selesai ",
+      "Sedang Berlangsung = ketika program masih berjalan seperi ekstrakulikuler",
+      "Direncanakan = Ketika progam belum terlaksana"
+    ]
+  },
+  "programKerja": {
+    "ProgramKerjaJudul": "Program Kerja",
+    "ProgramKerjaDeskripsi": "Berbagai program kerja yang kami rancang untuk meningkatkan ketaqwaan dan memberikan manfaat bagi komunitas.",
+    "programs": [
+      {
+        "icon": "fas fa-mosque",
+        "title": "Maulid Nabi dan Hari Santri Nasional 2023",
+        "description": "Perayaan untuk memperingati kelahiran Nabi Muhammad dan Hari Santri Nasional dengan berbagai kegiatan keagamaan.",
+        "date": "Sabtu, 21 Oktober 2023",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-star-and-crescent",
+        "title": "Isra Mi’raj",
+        "description": "Program peringatan perjalanan spiritual Nabi Muhammad SAW yang melibatkan perjalanan malam dari Makkah ke Yerusalem dan naik ke langit.",
+        "date": "Kamis, 22 Februari 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-star",
+        "title": "Muharram",
+        "description": "Program acara untuk memperingati Tahun Baru Hijriyah dengan kegiatan yang menggugah semangat persatuan dan refleksi spiritual.",
+        "date": "Jumat, 26 Juli 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-mosque",
+        "title": "Maulid Nabi",
+        "description": "Program peringatan kelahiran Nabi Muhammad SAW untuk memperdalam kecintaan terhadap Rasul.",
+        "date": "Rabu, 25 September 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-music",
+        "title": "Ekstrakurikuler Hadrah",
+        "description": "Program latihan dan pertunjukan seni hadrah yang menumbuhkan semangat keislaman di kalangan siswa.",
+        "date": "Setiap Jum'at dan Sabtu",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-book",
+        "title": "Ekstrakurikuler Tilawah",
+        "description": "Program latihan membaca Al-Qur'an dengan tajwid yang baik dan benar.",
+        "date": "Setiap Sabtu",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-pencil-alt",
+        "title": "Ekstrakurikuler Kaligrafi",
+        "description": "Program pembelajaran seni menulis huruf Arab dengan indah dan penuh makna.",
+        "date": "Setiap Jum'at dan Sabtu",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-book-open",
+        "title": "Khotmil Qur’an",
+        "description": "Program peringatan kelahiran Nabi Muhammad SAW untuk memperdalam kecintaan terhadap Rasul.",
+        "date": "Jum’at, 26 Juli 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-broom",
+        "title": "Bersih-Bersih Musholla (BBM)",
+        "description": "Kegiatan rutin membersihkan musholla sebagai wujud kepedulian terhadap kebersihan tempat ibadah.",
+        "date": "Satu bulan sekali",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-comments",
+        "title": "Diskusi Permasalahan Islam dan Remaja",
+        "description": "Diskusi untuk membahas isu-isu Islam yang relevan dengan kehidupan remaja saat ini.",
+        "date": "Sabtu, 14 September 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-dove",
+        "title": "Rohis (Rohani Islamiyah)",
+        "description": "Program rohani yang melibatkan penguatan iman dan takwa melalui kegiatan keagamaan.",
+        "date": "30 Agustus 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-newspaper",
+        "title": "Kolaborasi Mading",
+        "description": "Kolaborasi antar siswa dalam membuat dan mengelola media informasi di mading.",
+        "date": "Oktober 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-microphone-alt",
+        "title": "Ketaqwaan Bersholawat",
+        "description": "Acara rutin untuk bersholawat bersama sebagai bentuk kecintaan kepada Nabi Muhammad.",
+        "date": "Tiga bulan sekali",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-heart",
+        "title": "Takziah dan Sumbangan Kematian (Bimbang)",
+        "description": "Kegiatan sosial berupa takziah dan pengumpulan sumbangan untuk keluarga yang berduka.",
+        "date": "Setiap ada keluarga yang meninggal",
+        "status": "Direncanakan"
+      },
+      {
+        "icon": "fas fa-hands-helping",
+        "title": "Makah (MAN 1 Jember Berkah)",
+        "description": "Perjalanan spiritual dan kegiatan sosial dengan tema kebersamaan.",
+        "date": "30 Maret 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-podcast",
+        "title": "Podcast Ramadhan",
+        "description": "Acara podcast yang mengangkat tema keislaman selama bulan suci Ramadhan.",
+        "date": "Bulan Ramadhan",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-comment-alt",
+        "title": "Website Kotak Saran",
+        "description": "Website interaktif untuk mengumpulkan saran dan masukan dari anggota.",
+        "date": "any time",
+        "status": "Sedang-Berlangsung"
+      },
+      {
+        "icon": "fas fa-trophy",
+        "title": "Konten Quiz Islami Berhadiah",
+        "description": "Kegiatan quiz Islami dengan hadiah menarik untuk meningkatkan pengetahuan agama.",
+        "date": "Rencana Pelaksanaan 22 Oktober 2024",
+        "status": "Direncanakan"
+      },
+      {
+        "icon": "fas fa-tree",
+        "title": "Ziarah Wali dan Tadabur Alam",
+        "description": "Ziarah ke makam wali dan refleksi spiritual di alam sebagai sarana introspeksi diri.",
+        "date": "Rencana Pelaksanaan 18 Desember 2024",
+        "status": "Selesai"
+      },
+      {
+        "icon": "fas fa-tree",
+        "title": "Diklat Ketaqwaan Angkatan 2024/2025",
+        "description": "Diklat bagi anggota baru untuk memperdalam ketaqwaan melalui pelatihan dan pembelajaran.",
+        "date": "Rencana Pelaksanaan 25 Oktober, 1 dan 2 November 2024",
+        "status": "Selesai"
+      }
+    ]
+  }
+}
