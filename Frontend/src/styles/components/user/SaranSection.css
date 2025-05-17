@@ -1,0 +1,71 @@
+.saran-section {
+    padding: 6rem 0;
+    background-color: #f9fafb;
+}
+
+.saran-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.saran-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #136f63;
+}
+
+.saran-description {
+    color: #666;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.saran-subdescription {
+    color: #666;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.saran-button {
+    display: inline-block;
+    background-color: #136f63;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition:
+        background-color 0.3s,
+        box-shadow 0.3s;
+}
+
+.saran-button:hover {
+    background-color: #22aaa1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .saran-title {
+        font-size: 1.25rem;
+    }
+    .saran-description {
+        font-size: 0.8rem;
+    }
+    .saran-subdescription {
+        font-size: 0.8rem;
+    }
+    .saran-button {
+        font-size: 0.9rem;
+        padding: 0.75rem 1.5rem;
+    }
+}
