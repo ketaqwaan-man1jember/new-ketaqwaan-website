@@ -1,0 +1,130 @@
+.ekskul-section {
+    padding: 6rem 0 0 0;
+    background-color: white;
+}
+
+.ekskul-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.ekskul-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #136f63;
+}
+
+.ekskul-subtitle {
+    color: #666;
+    margin-bottom: 2rem;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.loading-indicator,
+.error-message,
+.no-data-message {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.error-message {
+    color: #e57373; /* Light red for error */
+}
+
+.no-data-message {
+    font-style: italic;
+    color: #999;
+}
+
+.ekskul-swiper {
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+.ekskul-swiper .swiper-slide {
+    background: transparent;
+    opacity: 0.9; /* Sedikit transparansi untuk slide tidak aktif */
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s ease;
+    transform: scale(0.95); /* Sedikit skala kecil untuk slide tidak aktif */
+}
+
+/* Navigation arrows */
+.ekskul-swiper .swiper-button-next,
+.ekskul-swiper .swiper-button-prev {
+    color: #136f63;
+    transition:
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.ekskul-swiper .swiper-button-next:after,
+.ekskul-swiper .swiper-button-prev:after {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ekskul-swiper .swiper-button-next:hover,
+.ekskul-swiper .swiper-button-prev:hover {
+    color: #22aaa1;
+    transform: scale(1.1);
+}
+
+/* Pagination bullets */
+.ekskul-swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    opacity: 0.8;
+    transition: background-color 0.3s ease;
+}
+
+.ekskul-swiper .swiper-pagination-bullet-active {
+    background-color: #136f63;
+    opacity: 1;
+}
+
+/* Empty card styling */
+.ekskul-swiper .empty-card {
+    background-color: var(--light-color);
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.ekskul-swiper .empty-card i {
+    font-size: 3rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.ekskul-swiper .empty-card p {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+}
+@media (max-width: 768px) {
+    .ekskul-title {
+        font-size: 1.25rem;
+    }
+    .ekskul-subtitle {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "ekskul": {
+    "EkskulJudul": "Ekstrakurikuler",
+    "EkskulDeskripsi": "Ekstrakurikuler yang dibawahi oleh SIE 1 KETAQWAAN MAN 1 Jember, wadah pengembangan diri dan minat siswa.",
+    "EkskulSlide": [
+      {
+        "title": "Tilawah",
+        "description": "Program mempelajari dan mendalami irama Al-Qur'an dengan bimbingan ustadz berpengalaman.",
+        "image": "/image-ekskul/ekskul-tilawah.jpg",
+        "schedule": {
+          "day": "Setiap Sabtu",
+          "time": "13.00 - Selesai"
+        }
+      },
+      {
+        "title": "Hadrah",
+        "description": "Kegiatan seni musik islami yang mencakup: - Teknik dasar bermain rebana - Latihan vocal sholawat - Harmonisasi kelompok - Persiapan performance - Latihan rutin mingguan",
+        "image": "/image-ekskul/ekskul-hadrah.jpg",
+        "schedule": {
+          "day": "Hari Jum'at dan Sabtu",
+          "time": "13.00 - Selesai"
+        }
+      },
+      {
+        "title": "Kaligrafi",
+        "description": "Kegiatan seni lukis islami yang mencakup: - Teknik dasar kaligrafi arab - Pengenalan berbagai gaya khat - Latihan komposisi dan ornamen - Praktek pembuatan karya",
+        "image": "/image-ekskul/ekskul-kaligrafi.jpg",
+        "schedule": {
+          "day": "Setiap Sabtu",
+          "time": "13.00 - Selesai"
+        }
+      }
+    ]
+  }
+}
