@@ -253,11 +253,11 @@ function Navbar() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
-                href={navbarData.NavbarMailLink}
+                href={navbarData.NavbarTiktokLink}
                 className="social-icon"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Email"
+                aria-label="Tiktok"
               >
                 <i className="fas fa-envelope"></i>
               </a>
