@@ -259,7 +259,7 @@ function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="Tiktok"
               >
-                <i className="fas fa-envelope"></i>
+                <i className="fab fa-tiktok"></i>
               </a>
             </div>
             <div className="footer-text mt-3">{navbarData.NavbarCopyRight}</div>
