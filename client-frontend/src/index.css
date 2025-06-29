@@ -1,0 +1,220 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 px-6 py-3 rounded-full;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-600 border-2 border-white hover:bg-gray-50 px-6 py-3 rounded-full;
+  }
+  
+  .btn-outline {
+    @apply border border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white px-6 py-3 rounded-full;
+  }
+  
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .heading-primary {
+    @apply text-3xl lg:text-4xl font-bold text-gray-900 mb-4;
+  }
+  
+  .heading-secondary {
+    @apply text-2xl lg:text-3xl font-semibold text-gray-900 mb-4;
+  }
+  
+  .text-body {
+    @apply text-gray-600 leading-relaxed;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-105;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-600 to-primary-800;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Loading animation */
+.loading-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px;
+}
+
+/* AOS animations */
+[data-aos] {
+  pointer-events: none;
+}
+
+.aos-animate {
+  pointer-events: auto;
+}
+
+/* Navbar scroll effect */
+.navbar-scrolled {
+  @apply bg-white/95 backdrop-blur-md shadow-lg;
+}
+
+.navbar-scrolled .nav-link {
+  @apply text-gray-700;
+}
+
+.navbar-scrolled .navbar-brand {
+  @apply text-primary-600;
+}
+
+/* Hero section wave */
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.hero-wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+.hero-wave .shape-fill {
+  fill: #f9fafb;
+}
+
+/* Status badges */
+.status-selesai {
+  @apply bg-green-100 text-green-800;
+}
+
+.status-sedang-berlangsung {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.status-direncanakan {
+  @apply bg-blue-100 text-blue-800;
+}
+
+/* Mobile menu */
+.mobile-menu-open {
+  @apply overflow-hidden;
+}
+
+/* Error and loading states */
+.error-state {
+  @apply text-center py-12;
+}
+
+.loading-state {
+  @apply flex items-center justify-center py-12;
+}
+
+/* Image optimization */
+img {
+  @apply max-w-full h-auto;
+}
+
+.image-cover {
+  @apply object-cover object-center;
+}
+
+.image-contain {
+  @apply object-contain object-center;
+}
