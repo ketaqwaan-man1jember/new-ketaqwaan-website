@@ -1,0 +1,20 @@
+{
+  "name": "ketaqwaan-admin-system",
+  "version": "1.0.0",
+  "description": "Admin panel system for Ketaqwaan MAN 1 Jember website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd admin-frontend && npm run dev",
+    "build": "cd admin-frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../admin-frontend && npm install"
+  },
+  "keywords": ["admin", "panel", "react", "nodejs", "mongodb"],
+  "author": "Ketaqwaan Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
