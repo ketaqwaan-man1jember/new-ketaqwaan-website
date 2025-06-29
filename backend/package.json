@@ -24,7 +24,12 @@
     "express-validator": "^7.0.1",
     "helmet": "^7.1.0",
     "express-rate-limit": "^7.1.5",
-    "compression": "^1.7.4"
+    "compression": "^1.7.4",
+    "express-slow-down": "^2.0.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "xss-clean": "^0.1.4",
+    "express-session": "^1.17.3",
+    "connect-mongo": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
